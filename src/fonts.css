@@ -1,0 +1,26 @@
+/* Custom Fonts for VivasayaThozhan */
+
+/* Import Poppins from fontsource */
+@import '@fontsource/poppins/300.css'; /* Light */
+@import '@fontsource/poppins/400.css'; /* Regular */
+@import '@fontsource/poppins/500.css'; /* Medium */
+@import '@fontsource/poppins/600.css'; /* Semi-bold */
+@import '@fontsource/poppins/700.css'; /* Bold */
+
+@font-face {
+  font-family: 'Kintagina';
+  src: url('./assets/fonts/Kintagina.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alankaram Plain';
+  src: url('./assets/fonts/Alankaram Plain.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Add more font-face declarations here when you get other font files */

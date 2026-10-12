@@ -1,0 +1,23 @@
+/* FadeInText.css */
+
+/* Initial state for the fade-in text animation */
+.fade-in,
+.fade-in-delayed {
+  opacity: 0;
+  transform: translateY(50px);
+  transition:
+    opacity 1s ease-out,
+    transform 1s ease-out;
+}
+
+/* Animation class to be added when the section is in view */
+.fade-in.animate,
+.fade-in-delayed.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Additional styles for delayed animation */
+.fade-in-delayed {
+  transition-delay: var(--delay, 0s); /* Use CSS variable for delay */
+}
